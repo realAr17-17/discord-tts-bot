@@ -20,7 +20,8 @@ module.exports = {
       .setColor(MESSAGE_EMBED.color)
       .setThumbnail(MESSAGE_EMBED.helpThumbnail)
       .addField('List of available commands:', helpMessage)
-      .addField(made by Moonstar used by AR17)
+      .addField('made by Moonstar used by AR17')
+    
     message.channel.send(embed);
   }
 };
